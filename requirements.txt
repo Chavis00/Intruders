@@ -1,0 +1,7 @@
+requests==2.25.1
+pyimgur==0.6.0
+python_telegram_bot==13.7
+msrest==0.6.21
+opencv_python==4.5.3.56
+azure_storage==0.37.0
+Pillow==8.3.2
