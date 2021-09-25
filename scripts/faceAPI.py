@@ -18,7 +18,6 @@ def detect(path):
     )     
 
     if response_detection:
-        print("lol")
 
         for face in response_detection:
             age = face.face_attributes.age
