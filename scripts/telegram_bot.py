@@ -8,3 +8,4 @@ def send_intruder(date, stats, pic_url, chat_id=CHAT_ID,token=TOKEN):
 		bot.sendPhoto(chat_id=chat_id, photo=pic_url)
 		bot.sendMessage(chat_id=chat_id, text=date)
 		bot.sendMessage(chat_id=chat_id, text=stats)
+		print("Intruder sended")

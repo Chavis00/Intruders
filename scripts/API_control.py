@@ -22,14 +22,14 @@ def api_controller():
 
             info = detect(file_dir)
 
-            
-
             f.pop(len(f)-1)
+
 
             if info:
                 link = upload(file_dir)
-                print(link)
-                send_intruder(file_name, info, link)
+
+                date = file_name.replace(".jpg", "")
+                send_intruder(date, info, link)
                     
             remove(file_dir)
 

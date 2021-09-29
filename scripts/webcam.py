@@ -19,18 +19,20 @@ class Webcam:
 
         self.video_capture = cv2.VideoCapture(0)
         self.anterior = 0
+        self.output_path='./shots'
 
     def capture(self):
+        """ Camera capture """
 
         while True:
 
             if not self.video_capture.isOpened():
+                ''' if capture problems '''
                 print('Unable to load camera.')
                 sleep(5)
-                pass
-
-            # Capture frame-by-frame
-            ret, frame = self.video_capture.read()
+                pass  
+            
+            ret, frame = self.video_capture.read() #Capture frame-by-frame 
 
             capture = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
 
@@ -41,35 +43,25 @@ class Webcam:
                 minSize=(30, 30)
             )
 
-            # Draw a rectangle around the faces
             for (x, y, w, h) in self.faces:
+                '''Draw a rectangle around the faces'''
                 cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
 
 
-
-
-
-
+            
             if self.anterior != len(self.faces):
 
-                """ Take snapshot and save it to the file """
+                ''' Take snapshot and save it to the file '''
 
                 ts = datetime.datetime.now()  # grab the current timestamp
                 filename = "{}.jpg".format(ts.strftime("%Y-%m-%d_%H-%M-%S"))  # construct filename
-                output_path='./shots'
 
-                p = os.path.join(output_path, filename)  # construct output path
+                p = os.path.join(self.output_path, filename)  # construct output path
                 current_image = Image.fromarray(capture) 
                 current_image.save(p, "jpeg")  # save image as jpeg file
 
 
-                print("[INFO] Guardado {}".format(filename))
-                print(len(self.faces))
-                date = filename.replace(".jpg", "")
-
-                
-                    
-
+                print("[INFO] Saved {}".format(filename))
 
                 """ change anterior and save the log info """
                 self.anterior = len(self.faces)
@@ -77,7 +69,7 @@ class Webcam:
 
 
             # Display the resulting frame
-            #cv2.imshow('Video', frame)
+            cv2.imshow('Video', frame)
 
 
 
