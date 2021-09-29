@@ -20,7 +20,7 @@ pip install -r requirements.txt
 
 
 
-## Config Keys
+## Config Keys in config.py
 ```python
 #Microsoft Azure Face API Key & Endpoint
 FKEY = '' 
