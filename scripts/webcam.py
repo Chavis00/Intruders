@@ -67,13 +67,8 @@ class Webcam:
                 print(len(self.faces))
                 date = filename.replace(".jpg", "")
 
-                stats = detect('./shots/'+filename)
-                print(stats)
-                if stats:
-                    link = upload('./shots/'+filename)
-                    print(link)
-                    send_intruder(date, stats ,link)
-
+                
+                    
 
 
                 """ change anterior and save the log info """

@@ -5,7 +5,6 @@ from config import FKEY, ENDPOINT
 
 def detect(path):
 
-
     face_client = FaceClient(ENDPOINT, CognitiveServicesCredentials(FKEY))
 
     image_file = open(path, 'rb')
@@ -18,7 +17,6 @@ def detect(path):
     )     
 
     if response_detection:
-        print("lol")
 
         for face in response_detection:
             age = face.face_attributes.age
