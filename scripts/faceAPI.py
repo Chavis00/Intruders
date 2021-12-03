@@ -5,6 +5,8 @@ from config import FKEY, ENDPOINT
 
 def detect(path):
 
+   
+
     face_client = FaceClient(ENDPOINT, CognitiveServicesCredentials(FKEY))
 
     image_file = open(path, 'rb')
