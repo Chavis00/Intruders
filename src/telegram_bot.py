@@ -3,24 +3,27 @@ import datetime
 import telegram
 
 from src.observer import Observer
-import logging
-
-logging.basicConfig(filename='app.log', level=logging.INFO)
+from src import logging_config
 
 
 class TelegramBot(Observer):
-    def __init__(self, chat_id: int, token: str, priority: int):
+    def __init__(self, users_ids: list, token: str, priority: int):
         super().__init__(priority)
-        self.chat_id = chat_id
+        self.users_ids = users_ids
         self.telegram_bot = telegram.Bot(token=token)
 
-    async def update(self, file_path: str, *args):
-        logging.info("Sending Image via Telegram " + file_path)
-        await self.send_intruder_picture(date=datetime.datetime.now(), file_path=file_path)
+    async def update(self, file_path: str, current_time=datetime.datetime):
+        logging_config.logging.info("Sending Image via Telegram " + file_path)
+        now = current_time.strftime("%H:%M:%S \n%d-%m-%Y")
+        new_intruder_msg = "----- New intruder detected near your cam! -----"
+        await self.send_msg(new_intruder_msg)
+        await self.send_picture(file_path=file_path)
+        await self.send_msg(now)
 
-    async def send_intruder_picture(self, date, file_path: str):
-        await self.telegram_bot.sendPhoto(chat_id=self.chat_id, photo=open(file_path, 'rb'))
-        await self.telegram_bot.sendMessage(chat_id=self.chat_id, text=date)
+    async def send_picture(self, file_path: str):
+        for user_id in self.users_ids:
+            await self.telegram_bot.sendPhoto(chat_id=user_id, photo=open(file_path, 'rb'))
 
-    async def send_intruder_stats(self, stats):
-        await self.telegram_bot.sendMessage(chat_id=self.chat_id, text=stats)
+    async def send_msg(self, msg):
+        for user_id in self.users_ids:
+            await self.telegram_bot.sendMessage(chat_id=user_id, text=msg, disable_web_page_preview=True)

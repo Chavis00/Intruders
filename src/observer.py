@@ -1,4 +1,5 @@
 from abc import ABC, abstractmethod
+import datetime
 
 
 class Observer(ABC):
@@ -6,7 +7,7 @@ class Observer(ABC):
         self.priority = priority
 
     @abstractmethod
-    def update(self, file_path: str):
+    def update(self, file_path: str, current_time: datetime.datetime):
         pass
 
 
@@ -21,5 +22,6 @@ class Subject:
         self.observers.remove(observer)
 
     async def notify_observers(self, file_path: str):
+        current_time = datetime.datetime.now()
         for observer in sorted(self.observers, key=lambda obs: obs.priority):
-            await observer.update(file_path)
+            await observer.update(file_path, current_time)

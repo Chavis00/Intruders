@@ -11,7 +11,6 @@ from imutils.video import VideoStream, FPS
 
 from src import logging_config
 from src.observer import Subject
-import src.logging_config
 
 
 class Webcam(Subject):
@@ -41,37 +40,25 @@ class Webcam(Subject):
         await self.notify_observers(file_path=p)
 
     def capture(self) -> None:
-        try:
-            logging_config.logging.info("Starting video stream...")
-            vs = VideoStream(self.camera).start()
-            time.sleep(1.0)
-            fps = FPS().start()
-            """ Loop over the frames from the video stream"""
-            while True:
+        logging_config.logging.info("Starting video stream...")
+        vs = VideoStream(self.camera).start()
+        time.sleep(1.0)
+        """ Loop over the frames from the video stream"""
+        while True:
 
-                frame = vs.read()
-                frame = imutils.resize(frame, width=self.size)
-                capture = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
+            frame = vs.read()
+            frame = imutils.resize(frame, width=self.size)
+            capture = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
 
-                """Face detection"""
-                faces = self.faceCascade.detectMultiScale(
-                    capture,
-                    scaleFactor=1.1,
-                    minNeighbors=5,
-                    minSize=(30, 30)
-                )
+            """Face detection"""
+            faces = self.faceCascade.detectMultiScale(
+                capture,
+                scaleFactor=1.1,
+                minNeighbors=5,
+                minSize=(30, 30)
+            )
 
-                """If capture new face"""
-                if self.anterior != len(faces):
-                    loop = asyncio.get_event_loop()
-                    loop.run_until_complete(self.save_face(faces, capture))
-
-                """Grab the frame dimensions and convert it to a blob"""
-                (h, w) = frame.shape[:2]
-                blob = cv2.dnn.blobFromImage(cv2.resize(frame, (300, 300)), 0.007843, (300, 300), 127.5)
-
-                """Update the FPS counter"""
-                fps.update()
-        except Exception as e:
-            logging_config.logging.ERROR("Failed to initialize the camera")
-
+            """If capture new face"""
+            if self.anterior != len(faces):
+                loop = asyncio.get_event_loop()
+                loop.run_until_complete(self.save_face(faces, capture))

@@ -1,17 +1,26 @@
 """CAMERA"""
 import os
 
+INSTALLED_APPS = [
+    'TELEGRAM_BOT',
+    'AZURE_FACE_DETECTION',
+    'GARBAGE_COLLECTOR',
+    'IMGUR'
+]
+
+# Camera config
 CAMERA = os.environ.get("CAMERA")  # 0  # 0 for default,for IP camera just set "IP:PORT/video"
 SIZE_PX = 500  # Size in pixel
 
-""" API KEYS """
-# Microsoft Azure Face API Key & Endpoint
+# Telegram bot config
+TOKEN = os.environ.get("TELEGRAM_TOKEN")
+USERS_IDS = [
+    1499495357
+]
+# Microsoft Azure Face API config
 FKEY = os.environ.get("AZURE_FKEY")
 ENDPOINT = os.environ.get("AZURE_ENDPOINT")
 
-# Telegram bot API Token & Chat ID
-TOKEN = os.environ.get("TELEGRAM_TOKEN")
-CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 
 # Imgur Client ID
 CLIENT_ID = os.environ.get("IMGUR_CLIENT_ID")

@@ -1,0 +1,194 @@
+2023-04-28 15:21:34,855 INFO webcam - capture: Starting video stream...
+2023-04-28 15:21:57,686 INFO webcam - capture: Starting video stream...
+2023-04-28 15:22:04,252 INFO webcam - capture: Starting video stream...
+2023-04-28 15:22:08,466 INFO webcam - save_face: [INFO] Saved 28-04-2023_15-22-08.jpg
+2023-04-28 15:22:08,466 INFO webcam - save_face: faces: 1 at 2023-04-28 15-22-08.466620
+2023-04-28 15:22:08,466 INFO telegram_bot - update: Sending Image via Telegram /code/shots/28-04-2023_15-22-08.jpg
+2023-04-28 15:23:40,076 INFO webcam - capture: Starting video stream...
+2023-04-28 15:23:42,044 INFO webcam - save_face: [INFO] Saved 28-04-2023_15-23-42.jpg
+2023-04-28 15:23:42,044 INFO webcam - save_face: faces: 1 at 2023-04-28 15-23-42.044406
+2023-04-28 15:23:42,044 INFO telegram_bot - update: Sending Image via Telegram /code/shots/28-04-2023_15-23-42.jpg
+2023-04-28 15:24:35,594 INFO webcam - capture: Starting video stream...
+2023-04-28 15:24:37,628 INFO webcam - save_face: [INFO] Saved 28-04-2023_15-24-37.jpg
+2023-04-28 15:24:37,629 INFO webcam - save_face: faces: 1 at 2023-04-28 15-24-37.629090
+2023-04-28 15:24:37,629 INFO telegram_bot - update: Sending Image via Telegram /code/shots/28-04-2023_15-24-37.jpg
+2023-04-28 15:24:38,556 INFO telegram_bot - send_picture: 1499495357
+2023-04-28 15:24:42,490 INFO FaceRecognition - scan_face: Processing image: /code/shots/28-04-2023_15-24-37.jpg
+2023-04-28 15:24:42,491 ERROR FaceRecognition - scan_face: The image could not be processed + /code/shots/28-04-2023_15-24-37.jpg
+2023-04-28 15:24:42,904 INFO garbage_collector - delete_garbage: /code/shots/28-04-2023_15-24-37.jpg removed!
+2023-04-28 15:24:42,912 INFO webcam - save_face: [INFO] Saved 28-04-2023_15-24-42.jpg
+2023-04-28 15:24:42,912 INFO webcam - save_face: faces: 0 at 2023-04-28 15-24-42.912663
+2023-04-28 15:24:42,912 INFO telegram_bot - update: Sending Image via Telegram /code/shots/28-04-2023_15-24-42.jpg
+2023-04-28 15:24:43,296 INFO telegram_bot - send_picture: 1499495357
+2023-04-28 15:24:44,544 INFO FaceRecognition - scan_face: Processing image: /code/shots/28-04-2023_15-24-42.jpg
+2023-04-28 15:24:44,545 ERROR FaceRecognition - scan_face: The image could not be processed + /code/shots/28-04-2023_15-24-42.jpg
+2023-04-28 15:24:44,938 INFO garbage_collector - delete_garbage: /code/shots/28-04-2023_15-24-42.jpg removed!
+2023-04-28 15:26:08,961 INFO webcam - capture: Starting video stream...
+2023-04-28 15:26:11,214 INFO webcam - save_face: [INFO] Saved 28-04-2023_15-26-11.jpg
+2023-04-28 15:26:11,215 INFO webcam - save_face: faces: 1 at 2023-04-28 15-26-11.215194
+2023-04-28 15:26:11,215 INFO telegram_bot - update: Sending Image via Telegram /code/shots/28-04-2023_15-26-11.jpg
+2023-04-28 15:26:16,155 INFO FaceRecognition - scan_face: Processing image: /code/shots/28-04-2023_15-26-11.jpg
+2023-04-28 15:26:16,156 ERROR FaceRecognition - scan_face: The image could not be processed + /code/shots/28-04-2023_15-26-11.jpg
+2023-04-28 15:26:16,542 INFO garbage_collector - delete_garbage: /code/shots/28-04-2023_15-26-11.jpg removed!
+2023-04-28 15:26:16,548 INFO webcam - save_face: [INFO] Saved 28-04-2023_15-26-16.jpg
+2023-04-28 15:26:16,549 INFO webcam - save_face: faces: 0 at 2023-04-28 15-26-16.549313
+2023-04-28 15:26:16,549 INFO telegram_bot - update: Sending Image via Telegram /code/shots/28-04-2023_15-26-16.jpg
+2023-04-28 15:26:18,210 INFO FaceRecognition - scan_face: Processing image: /code/shots/28-04-2023_15-26-16.jpg
+2023-04-28 15:26:18,210 ERROR FaceRecognition - scan_face: The image could not be processed + /code/shots/28-04-2023_15-26-16.jpg
+2023-04-28 15:26:18,624 INFO garbage_collector - delete_garbage: /code/shots/28-04-2023_15-26-16.jpg removed!
+2023-04-28 15:27:03,759 INFO webcam - capture: Starting video stream...
+2023-04-28 15:27:07,432 INFO webcam - save_face: [INFO] Saved 28-04-2023_15-27-07.jpg
+2023-04-28 15:27:07,433 INFO webcam - save_face: faces: 1 at 2023-04-28 15-27-07.433174
+2023-04-28 15:27:07,433 INFO telegram_bot - update: Sending Image via Telegram /code/shots/28-04-2023_15-27-07.jpg
+2023-04-28 15:27:12,404 INFO FaceRecognition - scan_face: Processing image: /code/shots/28-04-2023_15-27-07.jpg
+2023-04-28 15:27:12,813 INFO garbage_collector - delete_garbage: /code/shots/28-04-2023_15-27-07.jpg removed!
+2023-04-28 15:27:12,822 INFO webcam - save_face: [INFO] Saved 28-04-2023_15-27-12.jpg
+2023-04-28 15:27:12,822 INFO webcam - save_face: faces: 0 at 2023-04-28 15-27-12.822597
+2023-04-28 15:27:12,823 INFO telegram_bot - update: Sending Image via Telegram /code/shots/28-04-2023_15-27-12.jpg
+2023-04-28 15:27:14,441 INFO FaceRecognition - scan_face: Processing image: /code/shots/28-04-2023_15-27-12.jpg
+2023-04-28 15:27:14,442 ERROR FaceRecognition - scan_face: The image could not be processed + /code/shots/28-04-2023_15-27-12.jpg
+2023-04-28 15:27:14,832 INFO garbage_collector - delete_garbage: /code/shots/28-04-2023_15-27-12.jpg removed!
+2023-04-28 17:15:37,149 INFO webcam - capture: Starting video stream...
+2023-04-28 17:15:42,717 INFO webcam - save_face: [INFO] Saved 28-04-2023_17-15-42.jpg
+2023-04-28 17:15:42,718 INFO webcam - save_face: faces: 1 at 2023-04-28 17-15-42.718289
+2023-04-28 17:15:42,718 INFO telegram_bot - update: Sending Image via Telegram /code/shots/28-04-2023_17-15-42.jpg
+2023-04-28 17:30:10,928 INFO webcam - capture: Starting video stream...
+2023-04-28 17:31:27,267 INFO webcam - capture: Starting video stream...
+2023-04-28 17:31:29,103 INFO webcam - save_face: [INFO] Saved 28-04-2023_17-31-29.jpg
+2023-04-28 17:31:29,103 INFO webcam - save_face: faces: 1 at 2023-04-28 17-31-29.103566
+2023-04-28 17:31:29,103 INFO telegram_bot - update: Sending Image via Telegram /code/shots/28-04-2023_17-31-29.jpg
+2023-04-28 17:33:02,375 INFO webcam - capture: Starting video stream...
+2023-04-28 17:33:04,262 INFO webcam - save_face: [INFO] Saved 28-04-2023_17-33-04.jpg
+2023-04-28 17:33:04,262 INFO webcam - save_face: faces: 1 at 2023-04-28 17-33-04.262871
+2023-04-28 17:33:04,263 INFO telegram_bot - update: Sending Image via Telegram /code/shots/28-04-2023_17-33-04.jpg
+2023-04-28 17:33:20,980 INFO webcam - capture: Starting video stream...
+2023-04-28 17:33:26,647 INFO webcam - save_face: [INFO] Saved 28-04-2023_17-33-26.jpg
+2023-04-28 17:33:26,648 INFO webcam - save_face: faces: 1 at 2023-04-28 17-33-26.648261
+2023-04-28 17:33:26,648 INFO observer - notify_observers: <class 'datetime.datetime'>
+2023-04-28 17:33:26,648 INFO observer - notify_observers: <class 'datetime.datetime'>
+2023-04-28 17:33:26,649 INFO observer - notify_observers: <class 'datetime.datetime'>
+2023-04-28 17:33:26,649 INFO observer - notify_observers: <class 'datetime.datetime'>
+2023-04-28 17:33:26,649 INFO observer - notify_observers: <class 'datetime.datetime'>
+2023-04-28 17:33:26,649 INFO telegram_bot - update: Sending Image via Telegram /code/shots/28-04-2023_17-33-26.jpg
+2023-04-28 17:35:09,228 INFO webcam - capture: Starting video stream...
+2023-04-28 17:35:13,784 INFO webcam - save_face: [INFO] Saved 28-04-2023_17-35-13.jpg
+2023-04-28 17:35:13,784 INFO webcam - save_face: faces: 1 at 2023-04-28 17-35-13.784686
+2023-04-28 17:35:13,784 INFO telegram_bot - update: Sending Image via Telegram /code/shots/28-04-2023_17-35-13.jpg
+2023-04-28 17:40:36,209 INFO webcam - capture: Starting video stream...
+2023-04-28 17:40:38,636 INFO webcam - save_face: [INFO] Saved 28-04-2023_17-40-38.jpg
+2023-04-28 17:40:38,636 INFO webcam - save_face: faces: 1 at 2023-04-28 17-40-38.636370
+2023-04-28 17:40:38,636 INFO telegram_bot - update: Sending Image via Telegram /code/shots/28-04-2023_17-40-38.jpg
+2023-04-28 17:40:41,505 INFO FaceRecognition - scan_face: Processing image: /code/shots/28-04-2023_17-40-38.jpg
+2023-04-28 17:40:41,505 ERROR FaceRecognition - scan_face: The image could not be processed + /code/shots/28-04-2023_17-40-38.jpg
+2023-04-28 17:40:41,906 INFO garbage_collector - delete_garbage: /code/shots/28-04-2023_17-40-38.jpg removed!
+2023-04-28 17:40:41,922 INFO webcam - save_face: [INFO] Saved 28-04-2023_17-40-41.jpg
+2023-04-28 17:40:41,922 INFO webcam - save_face: faces: 0 at 2023-04-28 17-40-41.922481
+2023-04-28 17:40:41,922 INFO telegram_bot - update: Sending Image via Telegram /code/shots/28-04-2023_17-40-41.jpg
+2023-04-28 17:40:43,428 INFO FaceRecognition - scan_face: Processing image: /code/shots/28-04-2023_17-40-41.jpg
+2023-04-28 17:40:43,428 ERROR FaceRecognition - scan_face: The image could not be processed + /code/shots/28-04-2023_17-40-41.jpg
+2023-04-28 17:40:43,809 INFO garbage_collector - delete_garbage: /code/shots/28-04-2023_17-40-41.jpg removed!
+2023-04-28 17:54:36,126 INFO webcam - capture: Starting video stream...
+2023-04-28 17:54:38,337 INFO webcam - save_face: [INFO] Saved 28-04-2023_17-54-38.jpg
+2023-04-28 17:54:38,338 INFO webcam - save_face: faces: 1 at 2023-04-28 17-54-38.338021
+2023-04-28 17:54:38,338 INFO telegram_bot - update: Sending Image via Telegram /code/shots/28-04-2023_17-54-38.jpg
+2023-04-28 17:54:41,334 INFO FaceRecognition - scan_face: Processing image: /code/shots/28-04-2023_17-54-38.jpg
+2023-04-28 17:54:41,706 INFO garbage_collector - delete_garbage: /code/shots/28-04-2023_17-54-38.jpg removed!
+2023-04-28 17:54:41,713 INFO webcam - save_face: [INFO] Saved 28-04-2023_17-54-41.jpg
+2023-04-28 17:54:41,713 INFO webcam - save_face: faces: 0 at 2023-04-28 17-54-41.713681
+2023-04-28 17:54:41,713 INFO telegram_bot - update: Sending Image via Telegram /code/shots/28-04-2023_17-54-41.jpg
+2023-04-28 17:54:43,180 INFO FaceRecognition - scan_face: Processing image: /code/shots/28-04-2023_17-54-41.jpg
+2023-04-28 17:54:43,181 ERROR FaceRecognition - scan_face: The image could not be processed + /code/shots/28-04-2023_17-54-41.jpg
+2023-04-28 17:54:43,584 INFO garbage_collector - delete_garbage: /code/shots/28-04-2023_17-54-41.jpg removed!
+2023-04-28 17:56:15,431 INFO webcam - capture: Starting video stream...
+2023-04-28 17:56:17,324 INFO webcam - save_face: [INFO] Saved 28-04-2023_17-56-17.jpg
+2023-04-28 17:56:17,324 INFO webcam - save_face: faces: 1 at 2023-04-28 17-56-17.324530
+2023-04-28 17:56:17,324 INFO telegram_bot - update: Sending Image via Telegram /code/shots/28-04-2023_17-56-17.jpg
+2023-04-28 17:56:19,913 INFO FaceRecognition - scan_face: Processing image: /code/shots/28-04-2023_17-56-17.jpg
+2023-04-28 17:56:19,913 ERROR FaceRecognition - scan_face: The image could not be processed + /code/shots/28-04-2023_17-56-17.jpg
+2023-04-28 17:56:20,288 INFO garbage_collector - delete_garbage: /code/shots/28-04-2023_17-56-17.jpg removed!
+2023-04-28 17:56:20,297 INFO webcam - save_face: [INFO] Saved 28-04-2023_17-56-20.jpg
+2023-04-28 17:56:20,297 INFO webcam - save_face: faces: 0 at 2023-04-28 17-56-20.297732
+2023-04-28 17:56:20,298 INFO telegram_bot - update: Sending Image via Telegram /code/shots/28-04-2023_17-56-20.jpg
+2023-04-28 17:56:21,657 INFO FaceRecognition - scan_face: Processing image: /code/shots/28-04-2023_17-56-20.jpg
+2023-04-28 17:56:21,657 ERROR FaceRecognition - scan_face: The image could not be processed + /code/shots/28-04-2023_17-56-20.jpg
+2023-04-28 17:56:22,057 INFO garbage_collector - delete_garbage: /code/shots/28-04-2023_17-56-20.jpg removed!
+2023-04-28 18:00:42,666 INFO webcam - capture: Starting video stream...
+2023-04-28 18:00:44,336 INFO webcam - save_face: [INFO] Saved 28-04-2023_18-00-44.jpg
+2023-04-28 18:00:44,337 INFO webcam - save_face: faces: 1 at 2023-04-28 18-00-44.337342
+2023-04-28 18:00:44,337 INFO telegram_bot - update: Sending Image via Telegram /code/shots/28-04-2023_18-00-44.jpg
+2023-04-28 18:06:01,186 INFO webcam - capture: Starting video stream...
+2023-04-28 18:06:02,996 INFO webcam - save_face: [INFO] Saved 28-04-2023_18-06-02.jpg
+2023-04-28 18:06:02,996 INFO webcam - save_face: faces: 1 at 2023-04-28 18-06-02.996725
+2023-04-28 18:06:02,997 INFO telegram_bot - update: Sending Image via Telegram /code/shots/28-04-2023_18-06-02.jpg
+2023-04-28 18:07:37,286 INFO webcam - capture: Starting video stream...
+2023-04-28 18:07:39,016 INFO webcam - save_face: [INFO] Saved 28-04-2023_18-07-39.jpg
+2023-04-28 18:07:39,016 INFO webcam - save_face: faces: 1 at 2023-04-28 18-07-39.016869
+2023-04-28 18:07:39,017 INFO telegram_bot - update: Sending Image via Telegram /code/shots/28-04-2023_18-07-39.jpg
+2023-04-28 18:17:25,132 INFO webcam - capture: Starting video stream...
+2023-04-28 18:17:28,244 INFO webcam - save_face: [INFO] Saved 28-04-2023_18-17-28.jpg
+2023-04-28 18:17:28,244 INFO webcam - save_face: faces: 1 at 2023-04-28 18-17-28.244783
+2023-04-28 18:17:28,245 INFO telegram_bot - update: Sending Image via Telegram /code/shots/28-04-2023_18-17-28.jpg
+2023-04-28 18:17:31,084 INFO FaceRecognition - scan_face: Processing image: /code/shots/28-04-2023_18-17-28.jpg
+2023-04-28 18:17:31,085 ERROR FaceRecognition - scan_face: The image could not be processed + /code/shots/28-04-2023_18-17-28.jpg
+2023-04-28 18:18:33,970 INFO webcam - capture: Starting video stream...
+2023-04-28 18:18:45,115 INFO webcam - capture: Starting video stream...
+2023-04-28 18:18:47,568 INFO webcam - save_face: [INFO] Saved 28-04-2023_18-18-47.jpg
+2023-04-28 18:18:47,568 INFO webcam - save_face: faces: 1 at 2023-04-28 18-18-47.568500
+2023-04-28 18:18:47,568 INFO telegram_bot - update: Sending Image via Telegram /code/shots/28-04-2023_18-18-47.jpg
+2023-04-28 18:18:50,264 INFO FaceRecognition - scan_face: Processing image: /code/shots/28-04-2023_18-18-47.jpg
+2023-04-28 18:18:52,414 INFO imgur_uploader - update: Image uploaded to Imgur! <Image DJJlZOZ>
+2023-04-28 18:18:52,414 INFO garbage_collector - delete_garbage: /code/shots/28-04-2023_18-18-47.jpg removed!
+2023-04-28 18:18:52,421 INFO webcam - save_face: [INFO] Saved 28-04-2023_18-18-52.jpg
+2023-04-28 18:18:52,421 INFO webcam - save_face: faces: 0 at 2023-04-28 18-18-52.421913
+2023-04-28 18:18:52,422 INFO telegram_bot - update: Sending Image via Telegram /code/shots/28-04-2023_18-18-52.jpg
+2023-04-28 18:18:53,887 INFO FaceRecognition - scan_face: Processing image: /code/shots/28-04-2023_18-18-52.jpg
+2023-04-28 18:18:53,887 ERROR FaceRecognition - scan_face: The image could not be processed + /code/shots/28-04-2023_18-18-52.jpg
+2023-04-28 18:18:55,840 INFO imgur_uploader - update: Image uploaded to Imgur! <Image hDnZT4H>
+2023-04-28 18:18:55,841 INFO garbage_collector - delete_garbage: /code/shots/28-04-2023_18-18-52.jpg removed!
+2023-04-28 18:20:57,850 INFO webcam - capture: Starting video stream...
+2023-04-28 18:21:04,190 INFO webcam - save_face: [INFO] Saved 28-04-2023_18-21-04.jpg
+2023-04-28 18:21:04,190 INFO webcam - save_face: faces: 1 at 2023-04-28 18-21-04.190745
+2023-04-28 18:21:04,191 INFO telegram_bot - update: Sending Image via Telegram /code/shots/28-04-2023_18-21-04.jpg
+2023-04-28 18:21:07,197 INFO FaceRecognition - scan_face: Processing image: /code/shots/28-04-2023_18-21-04.jpg
+2023-04-28 18:21:09,561 INFO imgur_uploader - update: Image uploaded to Imgur! https://i.imgur.com/CmJYSCO.jpg
+2023-04-28 18:21:09,566 INFO garbage_collector - delete_garbage: /code/shots/28-04-2023_18-21-04.jpg removed!
+2023-04-28 18:21:09,573 INFO webcam - save_face: [INFO] Saved 28-04-2023_18-21-09.jpg
+2023-04-28 18:21:09,573 INFO webcam - save_face: faces: 0 at 2023-04-28 18-21-09.573738
+2023-04-28 18:21:09,574 INFO telegram_bot - update: Sending Image via Telegram /code/shots/28-04-2023_18-21-09.jpg
+2023-04-28 18:21:10,930 INFO FaceRecognition - scan_face: Processing image: /code/shots/28-04-2023_18-21-09.jpg
+2023-04-28 18:21:10,931 ERROR FaceRecognition - scan_face: The image could not be processed + /code/shots/28-04-2023_18-21-09.jpg
+2023-04-28 18:21:12,860 INFO imgur_uploader - update: Image uploaded to Imgur! https://i.imgur.com/GxEV0Kj.jpg
+2023-04-28 18:21:12,863 INFO garbage_collector - delete_garbage: /code/shots/28-04-2023_18-21-09.jpg removed!
+2023-04-28 18:22:50,849 INFO webcam - capture: Starting video stream...
+2023-04-28 18:22:54,685 INFO webcam - save_face: [INFO] Saved 28-04-2023_18-22-54.jpg
+2023-04-28 18:22:54,686 INFO webcam - save_face: faces: 1 at 2023-04-28 18-22-54.686103
+2023-04-28 18:22:54,686 INFO telegram_bot - update: Sending Image via Telegram /code/shots/28-04-2023_18-22-54.jpg
+2023-04-28 18:22:57,920 INFO FaceRecognition - scan_face: Processing image: /code/shots/28-04-2023_18-22-54.jpg
+2023-04-28 18:22:57,920 ERROR FaceRecognition - scan_face: The image could not be processed + /code/shots/28-04-2023_18-22-54.jpg
+2023-04-28 18:23:00,078 INFO imgur_uploader - update: Image uploaded to Imgur! https://i.imgur.com/7RAIJMY.jpg
+2023-04-28 18:23:00,079 INFO garbage_collector - delete_garbage: /code/shots/28-04-2023_18-22-54.jpg removed!
+2023-04-28 18:23:00,086 INFO webcam - save_face: [INFO] Saved 28-04-2023_18-23-00.jpg
+2023-04-28 18:23:00,087 INFO webcam - save_face: faces: 0 at 2023-04-28 18-23-00.087279
+2023-04-28 18:23:00,087 INFO telegram_bot - update: Sending Image via Telegram /code/shots/28-04-2023_18-23-00.jpg
+2023-04-28 18:23:01,455 INFO FaceRecognition - scan_face: Processing image: /code/shots/28-04-2023_18-23-00.jpg
+2023-04-28 18:23:01,456 ERROR FaceRecognition - scan_face: The image could not be processed + /code/shots/28-04-2023_18-23-00.jpg
+2023-04-28 18:23:03,542 INFO imgur_uploader - update: Image uploaded to Imgur! https://i.imgur.com/BQn0aox.jpg
+2023-04-28 18:23:03,543 INFO garbage_collector - delete_garbage: /code/shots/28-04-2023_18-23-00.jpg removed!
+2023-04-28 18:25:23,824 INFO webcam - capture: Starting video stream...
+2023-04-28 18:25:26,840 INFO webcam - save_face: [INFO] Saved 28-04-2023_18-25-26.jpg
+2023-04-28 18:25:26,841 INFO webcam - save_face: faces: 2 at 2023-04-28 18-25-26.841134
+2023-04-28 18:25:26,841 INFO telegram_bot - update: Sending Image via Telegram /code/shots/28-04-2023_18-25-26.jpg
+2023-04-28 18:28:04,003 INFO webcam - capture: Starting video stream...
+2023-04-28 18:28:05,881 INFO webcam - save_face: [INFO] Saved 28-04-2023_18-28-05.jpg
+2023-04-28 18:28:05,884 INFO webcam - save_face: faces: 1 at 2023-04-28 18-28-05.884786
+2023-04-28 18:28:05,886 INFO telegram_bot - update: Sending Image via Telegram /code/shots/28-04-2023_18-28-05.jpg
+2023-04-28 18:28:08,879 INFO FaceRecognition - scan_face: Processing image: /code/shots/28-04-2023_18-28-05.jpg
+2023-04-28 18:28:11,032 INFO imgur_uploader - update: Image uploaded to Imgur! https://i.imgur.com/miTdcxM.jpg
+2023-04-28 18:28:11,033 INFO garbage_collector - delete_garbage: /code/shots/28-04-2023_18-28-05.jpg removed!
+2023-04-28 18:28:11,039 INFO webcam - save_face: [INFO] Saved 28-04-2023_18-28-11.jpg
+2023-04-28 18:28:11,040 INFO webcam - save_face: faces: 0 at 2023-04-28 18-28-11.040266
+2023-04-28 18:28:11,040 INFO telegram_bot - update: Sending Image via Telegram /code/shots/28-04-2023_18-28-11.jpg
+2023-04-28 18:28:12,401 INFO FaceRecognition - scan_face: Processing image: /code/shots/28-04-2023_18-28-11.jpg
+2023-04-28 18:28:12,401 ERROR FaceRecognition - scan_face: The image could not be processed + /code/shots/28-04-2023_18-28-11.jpg
+2023-04-28 18:28:14,291 INFO imgur_uploader - update: Image uploaded to Imgur! https://i.imgur.com/87UbD4T.jpg
+2023-04-28 18:28:14,291 INFO garbage_collector - delete_garbage: /code/shots/28-04-2023_18-28-11.jpg removed!

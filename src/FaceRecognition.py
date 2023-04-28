@@ -1,16 +1,11 @@
-from abc import ABC
+import datetime
 
 from azure.cognitiveservices.vision.face import FaceClient
 from msrest.authentication import CognitiveServicesCredentials
-from config import FKEY, ENDPOINT
 from src import logging_config
 from src.observer import Observer
-import logging
-from typing import Union
 
 from src.telegram_bot import TelegramBot
-
-logging.basicConfig(filename='app.log', level=logging.INFO)
 
 
 class FaceRecognition(Observer):
@@ -24,19 +19,17 @@ class FaceRecognition(Observer):
         self.stats_unformated = "Estimated Age:  + {age} + \nNeutral:  + {neutral} + \nHappiness:  + {happiness} + \nSurprise:  + {surprise} + \nAnger:  + {anger}"
         self.stats = {}
         self.telegram_bot = telegram_bot
-        # self.stats = 'Estimated Age: ' + str(age) + '\nNeutral: ' + str(neutral) + '\nHappiness: ' + str(
-        #    happiness) + '\nSurprise: ' + str(surprise) + '\nAnger: ' + str(anger)
 
-    async def update(self, file_path: str) -> None:
+    async def update(self, file_path: str, current_time=datetime.datetime) -> None:
         self.scan_face(file_path=file_path)
         if self.telegram_bot is not None:
-            await self.telegram_bot.send_intruder_stats(stats=self.stats[file_path])
+            await self.telegram_bot.send_msg(msg=self.stats[file_path])
 
     def scan_face(self, file_path: str):
         response = self.request_face_information(file_path=file_path)
         logging_config.logging.info('Processing image: %s', file_path)
         if not response:
-            logging.error('Fallo al procesar Imagen + %s', file_path)
+            logging_config.logging.error('The image could not be processed + %s', file_path)
             self.stats[file_path] = "The image could not be processed"
             return
 
@@ -60,4 +53,5 @@ class FaceRecognition(Observer):
             recognition_model=self.recognition_model,
             return_face_attributes=self.return_face_attributes,
         )
+        type(response_detection)
         return response_detection

@@ -1,7 +1,5 @@
 import logging
 
-import logging
-
 from config import LOG_PATH
 
 logging.basicConfig(
