@@ -15,7 +15,7 @@ SIZE_PX = 500  # Size in pixel
 # Telegram bot config
 TOKEN = os.environ.get("TELEGRAM_TOKEN")
 USERS_IDS = [
-    1499495357
+    None
 ]
 # Microsoft Azure Face API config
 FKEY = os.environ.get("AZURE_FKEY")
