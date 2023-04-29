@@ -8,5 +8,6 @@ services:
       - .env
     volumes:
       - ./log:/code/log
+      - ./shots:/code/shots
 volumes:
   intruders_volume:

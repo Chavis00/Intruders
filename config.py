@@ -27,6 +27,10 @@ CLIENT_ID = os.environ.get("IMGUR_CLIENT_ID")
 
 # Image Saving Path
 OUTPUTPATH = os.path.join(os.getcwd(), 'shots')
+if not os.path.exists(OUTPUTPATH):
+    os.makedirs(OUTPUTPATH)
 LOG_PATH = os.path.join(os.getcwd(), 'log')
+if not os.path.exists(LOG_PATH):
+    os.makedirs(LOG_PATH)
 # FACE MODEL
 CASCPATH = os.path.join(os.getcwd(), 'models/face_model/haarcascade_frontalface_default.xml')
